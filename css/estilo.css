@@ -1,5 +1,5 @@
 * {
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -7,92 +7,126 @@ body {
     margin: 0;
 }
 
-body .container h2 {
-    text-align: center;
-}
-
 header {
-    background-color: #212172;
-    padding-top: 90px;
-    padding-bottom: 90px;
+    background-color: #003c6e;
     color: #ffff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 100px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
-}
-
-header img {
-    width: 300px;
+header .foto-perfil img {
     border-radius: 10px;
-    margin: auto 60px;
+    width: 200px;
 }
 
-header div {
+.conteudo {
     display: inline-block;
 }
 
 header h1 {
+    margin-left: 10px;
     font-size: 50px;
-    margin: 0 -35px;
+    letter-spacing: 3px;
 }
 
-header h2 {
-    font-size: 30px;
-    margin: 0 -35px;
-}
-
-.dados-pessoais {
-    margin-left: 40px;
-}
-
-.container {
-    min-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#curriculum {
+#session {
     padding-top: 80px;
     padding-bottom: 80px;
 }
 
-#formacao-academica img {
+.container {
+    margin: 0;
     display: inherit;
     width: 60px;
-    padding: 45x 0 75px;
+    padding: 45x 0 45px;
     text-align: center;
     margin: 15px auto;
 }
 
-#experiencia-profissional img {
-    display: inherit;
+#container img {
+    margin: 20px;
+    max-width: 900px;
     width: 60px;
-    padding: 45x 0 75px;
-    text-align: center;
-    margin: 15px auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#conhecimentos img {
-    display: inherit;
-    width: 60px;
-    padding: 45x 0 75px;
-    text-align: center;
-    margin: 15px auto;
-}
-
-#curriculum h2 {
-    font-size: 25px;
-    text-align: center;
-    margin: 10px auto;
+#experiencia-profissional {
+    padding: 20px;
+    background-color: #f4f4f4;
 }
 
 #curriculum ul {
     font-size: 18px;
     margin: 30px 45px 35px 355px;
+}
+
+#contato {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    background-color: #003c6e;
+    color: #ffff;
+}
+
+.icone-titulo {
+    display: inherit;
+    width: 60px;
+    padding: 45x 0 75px;
+    text-align: center;
+    margin: 15px auto;
+}
+
+#contato h3 {
+    font-size: 25px;
+    margin: 10px 20px;
+    padding-top: 20px;
+    letter-spacing: 4px;
+}
+
+#contato h4 {
+    font-size: 22px;
+    margin: 10px 20px;
+    letter-spacing: 4px;
+}
+
+a {
+    color: #ffab00;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+a:hover {
+    color: rgb(121, 121, 121);
+}
+
+footer {
+    padding: 10px;
+    background-color: #032b4d;
+    color: #ffff;
+    text-align: center;
+}
+
+footer img {
+    width: 64px;
+    border-radius: 5px;
+}
+
+.titulo-sessao {
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#rodape h3 {
+    width: 5px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+#rodape h3 {
+    display: inline;
 }

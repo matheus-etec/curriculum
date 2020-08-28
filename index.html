@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculo</title>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/estilo.css">
+<link rel="stylesheet" href="./css/responsividade.css">
 
-    <link rel="stylesheet" href="./css/estilo.css">
 </head>
 <body>
     
 <header>
-    <div class="container">
+    <div class="pefil">
 
-        <div class="foto-perfil">
-            <img src="./img/eu.jpeg" alt="Foto de perfil">
+        <div class="conteudo foto-perfil">
+            <section><img style="border-radius:20px;" src="./img/eu.jpeg" alt="Foto de perfil"></section>
         </div>
 
-        <div class="dados-pessoais">
-            <h1>Matheus Fenandes Pessoa</h1>
-            <h2>Estudante do curso de Desenvolvimento de Sistemas</h2>
+        <div class="conteudo dados-pessoais">
+            <h1>Matheus Fernandes Pessoa</h1>
+            <h2 class="titulo-sessao">Estudante do curso de Desenvolvimento de Sistemas</h2>
         
         </div>
 
@@ -29,9 +31,9 @@
 
     <section id="formacao-academica">
 
-        <div class="container">
-            <img src="./img/medalha.svg" alt="Icone Certificados">
-            <h2>Formacao Academica</h2>
+        <div id="container">
+            <img class="icone-titulo" src="./img/medalha.svg" alt="Icone Certificados">
+            <h2 class="titulo-sessao">Formacao Academica</h2>
                 <ul>
                     <li>Curso de Arquitetura (Trancado)</li>
                     <li>Desenvolvimento de Sistemas</li>
@@ -42,9 +44,9 @@
 
     <section id="experiencia-profissional">
 
-        <div class="container">
-            <img src="./img/trabalhos.svg" alt="Icone Certificados">
-            <h2>Formacao profissional</h2>
+        <div id="container">
+            <img class="icone-titulo" src="./img/trabalho.svg" alt="Icone Certificados">
+            <h2 class="titulo-sessao">Formacao profissional</h2>
             <ul>
                 <li>Gerente de Vendas</li>
             </ul>
@@ -54,9 +56,9 @@
 
     <section id="conhecimentos">
 
-        <div class="container">
-            <img src="./img/pensar.svg" alt="Icone Certificados">
-            <h2>Conhecimentos</h2>
+        <div id="container">
+            <img class="icone-titulo" src="./img/pensar.svg" alt="Icone Certificados">
+            <h2 class="titulo-sessao">Conhecimentos</h2>
             <ul>
                 <li>HTML5</li>
                 <li>Javascript, um pouco</li>
@@ -67,7 +69,22 @@
         </div>
         
     </section>
-</div>
 
+    <section id="contato">
+        <div id="container">
+            <img class="icone-titulo" src="./img/agenda.svg" alt=Agenda>
+            <h2 class="titulo-sessao">Contatos</h2>
+            <h3>WhatsApp</h3>
+            <h4><a href="http://wa.me/5514981533438?text=Olá gostei do seu pefil, qual melhor horario para uma entrevista?">(14) 9 8153-3438</a></h4>
+            <h3>E-mail</h3>
+            <h4><a href="mailto:matheus.pessoa2@etec.sp.gov.br">matheus.pessoa2@etec.sp.gov.br</a></h4>
+        </div>
+    </section>
+
+    <footer id="rodape">
+            <section><img src="./img/eu.jpeg" alt="Eu"></section>
+            <h3>Matheus Pessoa</h3>
+    </footer>
+</div>
 </body>
 </html>

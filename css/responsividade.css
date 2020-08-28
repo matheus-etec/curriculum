@@ -1,0 +1,115 @@
+@media (min-width: 320px) and (max-width: 425px) {
+    * {
+        font-family: 'Open Sans', sans-serif;
+    }
+    html,
+    body {
+        overflow-x: hidden !important;
+        padding: 0;
+        margin: 0;
+    }
+    header {
+        background-color: #003c6e;
+        color: #ffff;
+        padding: 40px 10px 40px 10px;
+    }
+    header .foto-perfil img {
+        padding: 10px 160px 10px 160px;
+        width: 60px;
+    }
+    .conteudo {
+        display: inline-block;
+    }
+    header h1 {
+        margin: 10px 30px 5px 30px;
+        font-size: 17px;
+        letter-spacing: 3px;
+    }
+    #session {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .container {
+        margin: 0;
+        display: inherit;
+        width: 60px;
+        padding: 45x 0 45px;
+        text-align: center;
+        margin: 15px auto;
+    }
+    #container img {
+        margin: 20px;
+        max-width: 900px;
+        width: 60px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #experiencia-profissional {
+        padding: 20px;
+        background-color: #f4f4f4;
+    }
+    #curriculum ul {
+        font-size: 15px;
+        margin: auto auto;
+        padding-bottom: 10px;
+    }
+    #contato {
+        padding-top: 2px;
+        padding-bottom: 30px;
+        background-color: #003c6e;
+        color: #ffff;
+    }
+    .icone-titulo {
+        display: inherit;
+        width: 60px;
+        padding: 45x 0 75px;
+        text-align: center;
+        margin: 15px auto;
+    }
+    #contato h3 {
+        margin: 10px 20px;
+        padding-top: 20px;
+        letter-spacing: 4px;
+        font-size: small;
+    }
+    #contato h4 {
+        font-size: 15px;
+        margin: 10px 20px;
+        letter-spacing: 4px;
+    }
+    a {
+        color: #ffab00;
+        text-decoration: none;
+        transition-duration: 0.3s;
+    }
+    a:hover {
+        color: rgb(121, 121, 121);
+    }
+    footer {
+        padding: 10px;
+        background-color: #032b4d;
+        color: #ffff;
+        text-align: center;
+    }
+    footer img {
+        width: 30px;
+        border-radius: 5px;
+    }
+    .titulo-sessao {
+        font-size: 10px;
+        text-align: center;
+        margin: 10px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+    #rodape h3 {
+        width: 5px;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+    #rodape h3 {
+        display: inline;
+        font-size: 12px;
+    }
+}
